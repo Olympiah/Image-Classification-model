@@ -30,7 +30,7 @@ In this stage we use a AWS build-in image classification algorithm to train the 
 Here we write and deploy three Lambda functions, and then use the Step Functions visual editor to chain them together!
 The first lambda function is responsible for *data generation. The second one is responsible for *image classification. And the third function is responsible for *filtering out low-confidence inferences.
 
-![Screenshot of the succesfull workflow]('/screenshots/stepfunction_success.png')
+![Screenshot of the succesfull workflow](stepfunction_success.png)
 
 4. Testing and Evaluation
 In this step, we first perform several step function invokations using data from the test dataset. This process should give you confidence that the workflow both succeeds AND fails as expected. In addition, you will use the captured data from SageMaker Model Monitor to create a visualization to monitor the model.
