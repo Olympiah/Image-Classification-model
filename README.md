@@ -31,9 +31,10 @@ In this stage we use a AWS build-in image classification algorithm to train the 
 3. Lambdas and Step Function Workflow
    
 Here we write and deploy three Lambda functions, and then use the Step Functions visual editor to chain them together!
-The first lambda function is responsible for *data generation. The second one is responsible for *image classification. And the third function is responsible for *filtering out low-confidence inferences.
+The first lambda function is responsible for *data generation*. The second one is responsible for *image classification*. And the third function is responsible for *filtering out low-confidence inferences*.
 
 <img src="screenshots/stepfunction_success.png" alt="Screenshot of the succesfull workflow" width="500"/>
+<img src="screenshots/stepfunction_failed.png" alt="Screenshot of the succesfull workflow" width="500"/>
 
 4. Testing and Evaluation
    
